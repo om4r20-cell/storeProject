@@ -1,17 +1,17 @@
 class persona:
     def __init__(self, identificacion, Nombre, Correo):
         self.identificacion = identificacion #atributo para la identidad de la persona
-        self.__Nombre = Nombre #atributo para el nombre de la persona
+        self.Nombre = Nombre #atributo para el nombre de la persona
         self.Correo = Correo #atributo para el correo de la persona
         
-        def getinformacion(self):
-              return self.__indentificacion #retorna la identidad de la persona
+        def getidentificacion(self):
+          return self.__indentificacion #retorna la identidad de la persona
         
         def getNombre(self):
-            return self.__Nombre #retorna el nombre de la persona
+          return self.__Nombre #retorna el nombre de la persona
         
         def getCorreo(self):
-            return self.__Correo #retorna el correo de la persona
+          return self.__Correo #retorna el correo de la persona
         
             @correo.setter
             def correo(self, valor):
@@ -30,9 +30,7 @@ class persona:
             return self.mostrar_informacion() #retorna la información de la persona en un formato legible
         
         
-        
-    
-        return self.__Nombre #retorna el nombre de la persona
+
     
     
     
