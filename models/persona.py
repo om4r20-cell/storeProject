@@ -5,13 +5,13 @@ class persona:
         self.Correo = Correo #atributo para el correo de la persona
         
         def getidentificacion(self):
-          return self.__indentificacion #retorna la identidad de la persona
+            return self.__indentificacion #retorna la identidad de la persona
         
         def getNombre(self):
-          return self.__Nombre #retorna el nombre de la persona
+            return self.__Nombre #retorna el nombre de la persona
         
         def getCorreo(self):
-          return self.__Correo #retorna el correo de la persona
+            return self.__Correo #retorna el correo de la persona
         
             @correo.setter
             def correo(self, valor):
